@@ -27,8 +27,8 @@ namespace Ogrodnik.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\dokumenty\\informatyka\\4 s" +
-            "emestr\\programowanie komponentowe\\lab_kolo\\Baza.mdf\";Integrated Security=True;Co" +
-            "nnect Timeout=30")]
+            "emestr\\programowanie komponentowe\\lab_kolo\\Ogrodnik\\Baza.mdf\";Integrated Securit" +
+            "y=True;Connect Timeout=30")]
         public string BazaConnectionString {
             get {
                 return ((string)(this["BazaConnectionString"]));
