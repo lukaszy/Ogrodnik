@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Baza" Class="BazaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Student\Pulpit\lab_kolo\Baza.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="Ogrodnik.Properties.Settings" SettingsPropertyName="BazaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Kwiatek" Member="Kwiateks">
+    <Type Name="Kwiatek">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="x" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="y" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
